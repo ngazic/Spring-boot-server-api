@@ -1,0 +1,14 @@
+  spring:
+    spring:
+      resources:
+        static-locations: file:/opt/x/y/z/static/
+    data:
+      mongodb:
+        authentication-database: admin
+        username: rootuser
+        password: rootpass
+        database: spring_server
+        port: 27017
+        host: localhost
+  jpa:
+    show-sql: true
